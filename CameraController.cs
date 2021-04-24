@@ -34,22 +34,11 @@ public class SwipeMenu : MonoBehaviour
         {
             transform.position = startPos;
         }
-        //Move();
         Rot();
         Zoom();
         Pan();
 
     }
-
-    void Move()
-    {
-        float mouseX = Input.GetAxis("Horizontal");
-        float mouseZ = Input.GetAxis("Vertical");
-
-        transform.position += transform.forward * mouseZ * panSpeed * Time.deltaTime;
-        transform.position += transform.right * mouseX * panSpeed * Time.deltaTime;
-    }
-
     void Rot()
     {
         float horizontal = 0f;
