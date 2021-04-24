@@ -88,7 +88,7 @@ public class SwipeMenu : MonoBehaviour
 
     void Pan()
     {
-        if (Input.GetMouseButton(1) && !Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetMouseButton(1))
         {
             float mouseX = Input.GetAxis("Mouse X");
             float mouseZ = Input.GetAxis("Mouse Y");
