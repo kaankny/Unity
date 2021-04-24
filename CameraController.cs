@@ -7,7 +7,6 @@ public class SwipeMenu : MonoBehaviour
     [SerializeField] Camera cam;
 
     [Header("Movement")]
-    [SerializeField] float moveSpeed;
     [SerializeField] float panSpeed;
 
     [Header("Zoom")]
