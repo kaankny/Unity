@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class SwipeMenu : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
     [Header("Camera")]
     [SerializeField] Camera cam;
